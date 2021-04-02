@@ -1,0 +1,71 @@
+{
+  "BurstVersion": "12fd8c57-ac57-41e8-88f3-e2a61ac3563b",
+  "Assemblies": [
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-03-26T04:38:50.9942818Z"
+    },
+    {
+      "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "LastWriteTime": "2020-09-30T16:10:46Z"
+    },
+    {
+      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2020-09-30T16:10:46Z"
+    },
+    {
+      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2020-09-30T16:18:04Z"
+    },
+    {
+      "FullName": "Unity.Barracuda.BurstBLAS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-03-26T04:38:52.9872831Z"
+    },
+    {
+      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2020-09-30T16:10:46Z"
+    },
+    {
+      "FullName": "Unity.Barracuda, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-03-26T04:38:52.3922831Z"
+    }
+  ],
+  "Functions": [
+    {
+      "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "49b187ddcdf01883717d5a5af9b4a035",
+      "LinkName": "CDCA4A5193BE5947",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "93a863f888b12a260519ee9cd01e7ee2",
+      "LinkName": "801E9A000BB37B05",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Barracuda.UnsafeMatrixBlockMultiplyUnrolled8xhJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "18127bd0277f5f2f1748b14748b4ddd3",
+      "LinkName": "C1C6C1D457935913",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        6
+      ]
+    }
+  ]
+}
